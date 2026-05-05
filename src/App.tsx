@@ -10,14 +10,6 @@ function App() {
         website: "sushanth.avlokai.com"
     };
 
-    const ctoProps = {
-        name: "Adapa Rohith",
-        title: "Co-Founder and CTO",
-        email: "adaparohith29@gmail.com",
-        businessEmail: "avlokaibusiness@gmail.com",
-        phone: "+91 77319 83447",
-        website: "rohith.avlokai.com"
-    };
 
     const themes = [
         { id: 'theme-elegant', name: 'Theme 1: Elegant (Buenard + Lora)' }
@@ -66,11 +58,6 @@ function App() {
                         </h2>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', width: '100%', alignItems: 'center' }}>
                             <BusinessCard {...cardProps} theme={theme.id} />
-
-                            {/* Visual Divider between cards */}
-                            <div className="no-print" style={{ width: '80%', height: '1px', background: 'var(--border-subtle)', margin: '1rem 0' }}></div>
-
-                            <BusinessCard {...ctoProps} theme={theme.id} />
                         </div>
                     </div>
                 ))}

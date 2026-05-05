@@ -27,8 +27,7 @@ export const BusinessCard: React.FC<BusinessCardProps> = ({
             <div className="card card-front">
                 <div className="card-content front-content">
                     <div className="logo-section front-center-stack">
-                        <img src="/avlokai_logo_transparent.png" alt="AvlokAI Logo" className="logo-image" />
-                        <h1 className="front-company-name">AvlokAI</h1>
+                        <img src="/avlokai_logo_revised.png" alt="AvlokAI Logo" className="logo-image" />
                     </div>
                 </div>
             </div>
@@ -74,7 +73,7 @@ export const BusinessCard: React.FC<BusinessCardProps> = ({
                     <div className="qr-section">
                         <div className="qr-wrapper">
                             <img
-                                src="/qr-code.png"
+                                src="/qr_code_whatsapp.jpeg"
                                 alt="Portfolio QR Code"
                                 className="qr-image"
                             />
